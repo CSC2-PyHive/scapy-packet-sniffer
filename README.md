@@ -38,9 +38,9 @@ The script utilizes the `sniff` function from Scapy to capture packets and a cal
 `packet_callback(packet)`: This function is called for each captured packet. It prints a summary of the packet using `packet.summary()`.
 `sniff(prn=packet_callback, count=10)`: Starts capturing packets on all interfaces. The captured packets are passed to the `packet_callback` function. The `count` argument limits the number of captured packets to 10 (remove it for continuous capture).
 
-###Contributing
+### Contributing
 Feel free to contribute to this project by:
 
--Reporting any bugs or issues you encounter.
--Suggesting improvements or additional features.
--Forking the repository and creating pull requests with your modifications.
+- Reporting any bugs or issues you encounter.
+- Suggesting improvements or additional features.
+- Forking the repository and creating pull requests with your modifications.

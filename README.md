@@ -14,7 +14,3 @@ This script captures network traffic and displays a summary of each captured pac
 
 ```bash
 pip3 install scapy
-
-Installation
-
-1. **Install Python 3**: Download and install Python 3 from the official website ([https://www.python.org/downloads/](https://www.python.org/downloads/)) if you haven't already.
